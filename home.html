@@ -2,353 +2,41 @@
 
 <html>
   <head>
-    <title>Responsive Redesign!</title>
+    <title>Responsive Redesign</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
-    <div class="heading">
-      <img src="media/rhode_to_freedom_logo.gif" alt="Rhode To Freedom Logo" id="logo">
-      <div class="navbar">
-        <h1>HOME &nbsp;&nbsp; SWIM EMPOWERMENT &nbsp;&nbsp; PROGRAMS &nbsp;&nbsp; SHOP+MUSEUM &nbsp;&nbsp; GALLERY+ARCHIVES &nbsp;&nbsp; DONATE &nbsp;&nbsp; ABOUT US</h1>
+    <div class="title">
+      <h1> responsive redesign </h1>
       </div>
-      <img src="media/rhode-island-map.jpg" alt="Map of Rhode Island" class="bottom-image">
-      <img src="media/rhode_to_freedom_label.gif" alt="A Rhodeside Guide to African American Sites in Rhode Island" class="top-image">
-      <p id="intro-text">Stroll the highways and byways of Rhode Island and be astonished by the extraordinarily rich, compelling and groundbreaking contributions African Americans have made to the state’s landscape and cultural heritage. On foot or by car, or in the comfort or your own home, this guide will assist you in locating and exploring exciting sites, events and people. From slavery to abolition, reconstruction to the gilded age, from civil rights to present day, this is a story unlike any other in the country.</p>
-      </p>
-      <div class="key">
-        <h1>Key</h1>
-        <ul>
-          <li style="background-image: url(media/grave_icon.png);">burial site</li>
-          <li style="background-image: url(media/church_icon.png);">house of worship</li>
-          <li style="background-image: url(media/cape_verde_icon.png);">Cape Verdean site</li>
-          <li style="background-image: url(media/black_owned_icon.png);">Black owned business</li>
-          <li style="background-image: url(media/railroad_icon.png);">property on the Underground Railroad</li>
-        </ul>
+      <div class="section">
+        <h2 class="heading"> Current Issues </h2>
+        <h3 class="btext"> Usability </h3>
+        <p class="btext">Analyzing the site based on criteria of usability, learnability, and memorability revealed many issues with the page’s visual design and lack of responsiveness. These are detailed below.</p>
+        <img src="portfolio/curr-issues.svg" alt="Issues associated with the current website." class="image" id="large">
+        <h3 class="btext"> Accessibility </h3>
+        <p class="btext">A Web Accessibility Evaluation Tool resulted in 44 errors on the site (mostly due to empty headings), 1,197 contrast errors (due to the white text on a light colored background) and 47 alerts (due to suspicious links).</p>
+        <p class="btext">When using a screen reader to assess the site’s accessibility for people who are visually impaired, the lack of alternative titles made it impossible to understand images. The use of empty headings and lack of hierarchy between headings and text also made comprehension difficult.</p>
       </div>
 
-      <div class="topnav">
-        <div class="search-container">
-          <form action="">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit">Submit</button>
-          </form>
-        </div>
+      <div class="section">
+        <h2 class="heading"> Visual Redesign </h2>
+        <h3 class="btext"> Low-Fidelity Wireframes </h3>
+        <img src="portfolio/balsamiq.svg" alt="Improved low-fidelity design of web, tablet, and phone interfaces." class="image" id="large">
+        <h3 class="btext"> High-Fidelity Prototypes </h3>
+        <img src="portfolio/figma.svg" alt="Improved high-fidelity design of web, tablet, and phone interfaces." class="image" id="large">
+        <h3 class="btext"> Visual Design Style Guide </h3>
+        <img src="portfolio/style-guide.svg" alt="Style guide of typeface, colors, icons, and navbars." class="image" id="guide">
+
+
       </div>
 
-    </div>
-    
-
-
-
-    <div class="container">
-      <h1>Cranston</h1>
-      <div class="parent">
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" alt="gravestone icon" class="inline-icon">
-            Baker Family Slave Cemetery
-          </h4>
-          <p>Rhode Island Historical Cemetery #065. Located 300 feet northeast of the Baker family lot (CR054). A dozen graves of Baker slaves; none are inscribed.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" alt="gravestone icon" class="inline-icon">
-            Potter Family Slave Lot
-          </h4>
-            <p>Rhode Island Historical Cemetery #CR555. Riverlet Farm. </p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" alt="gravestone icon" class="inline-icon">
-            Slave Burial Lot, Rhode Island Historical Cemetery #CR557
-          </h4>
-            <p>James Arnold visited this lot 23 Aug 1891 and wrote: "On the Cole Mine and beside the old road and near the water main of the Sockanosett Reservoir a burial yard of colored people, slaves and afterward free - about 20 interments in all."</p>
-          </h4>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" alt="gravestone icon" class="inline-icon">
-            Slave Burial Lot, Rhode Island Historical Cemetery #CR551
-          </h4>
-            <p>James Arnold visited this lot 23 Aug 1891 and wrote: "On the farm lately belonging to Ezekiel Pierce and formerly owned by Gorton Arnold, northwest of the house in edge of wood, yard much overrun with weeds and bush, a slave burial yard, nothing but rude stones mark the spot."</p>
-          </h4>
-        </div>
+      <div class="section">
+        <h2 class="heading"> Responsive Redesign </h2>
+        <a href="redesign.html">Redesigned Website</a>
       </div>
-    </div>
-
-    <div class="container">
-      <h1>Warwick</h1>
-      <div class="parent">
-        <div class="text-block">
-          <h4>Aaron Briggs</h4>
-          <p>Gaspee Affair, 1772. Briggs, age 14, from Prudence Island, participated in the burning of the Gaspee off Naiquid Point of Pawtuxet Village, an act of aggression against the British, signalling "the first shot" in what would become the Revolutionary War.</p>
-        </div>
-        <div class="text-block">
-          <h4>Captain Peter Greene House, c. 1751</h4>
-          <p>1124 West Shore Road. On July 28, 1725, Greene left Hager, his “negro” slave, 10 shillings to “induce her to be kinde to my Wife," and her children were bequeathed 5 shillings each.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" alt="gravestone icon" class="inline-icon">
-            Peter Greene Slave Lot</h4>
-          <p>Also known as Rhode Island Historical Cemetery Warwick #123. Behind 155 Symonds Avenue (backyard). Plat 333; Within Lot 397.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" alt="gravestone icon" class="inline-icon">
-            Waterman Slaves Cemetery</h4>
-          <p>Also known as Rhode Island Historical Cemetery Warwick #103. Old Homestead Road. An 1895 granite marker mentions five slaves by name and that the last burial was in 1820.</p>
-        </div>
-        <div class="text-block">
-          <h4>Old Town Workhouse</h4>
-          <p>58 Colonial Avenue, Apponaug. Housing for indigent citizens who were put to work doing tasks that they were capable of performing.</p>
-        </div>
-        <div class="text-block">
-          <h4>Captain Thomas Remington House</h4>
-          <p>47-49 Post Road, Pawtuxet. Remington was a slave trader and reportedly housed his slaves in a structure behind the house and held slave auctions in the barn.</p>
-        </div>
-        <div class="text-block">
-          <h4>Moses Greene House</h4>
-          <p>11 Economy Avenue, Conimicut Village. This house has been connected to the Triangular Trade, smuggling, and the slave trade during the period when the house was owned by members of the Lippitt and Greene families. </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h1>Providence</h1>
-      <div class="parent">
-        <div class="text-block">
-          <h4>Snowtown Riot 1831 - Marker</h4>
-          <p>North end of Roger Williams National Memorial, 282 North Main Street. Inscription: "The site of the second major riot between Providence African American residents and white workers."</p>
-        </div>
-        <div class="text-block">
-          <h4>Hardscrabble Riot 1824 - Marker</h4>
-          <p>Median strip between North Main Street and Charles Street. Inscription: "The site of Addison Hollow where the first nineteenth century blacks purchased property and the site of the first major riot." White rioters caused the partial destruction of this community and brought about the institution of a police department.</p>
-        </div>
-        <div class="text-block">
-          <h4>Center for Reconciliation</h4>
-          <p>St. John's Episcopal Cathedral, 275 North Main Street. The Center is a nonprofit organization based in dedicated to the work of racial justice and racial reconciliation.
-          <a href="http://cfrri.org/">Read more.</a></p>
-        </div>
-        <div class="text-block">
-          <h4>First Baptist Church in America</h4>
-          <p>75 North Main Street. In 1768 the  church began to record its Black members, including  Mary Almy, Phillis Anderson, Violet Brown Johnson, Mary Ann Brown (wife of Pero), Mrs. Betsey Brown, Hannah Hopkins Colen, Phillis Church, Eliza Jackson Green, Anstis Greene and many others. In 1819, Black members met with White leaders to plan an exodus from the church to build their own house of worship, the African Meeting House. See plaque to the left of the front entrance commemorating this event and the oil portrait of sexton and bell ringer, Noah C. Wesley (1855-1928), who held the position from 1882 to 1928, within. 
-            <a href="https://www.stagesoffreedom.org/blog">Tours available here.</a></p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/black_owned_icon.png" class="inline-icon">
-            Market Square, 1774</h4>
-          <p>Corner of North Main and College Streets. Site of the Militia Act of 1862 which permitted Blacks to participate in the Civil War. Multiple Black vendors had food carts or stalls within, including butcher Titus Guinea, grocer Simon Manuel, butcher George Thomas, refreshment stand vendor George M'Carty, food vendor Peter Waters. </p>
-        </div>
-        <div class="text-block">
-          <h4>Stephen Hopkins House</h4>
-          <p>15 Hopkins Street. This signer of the Declaration of Independence wrote in this house "Rights of Colonies Examined," a 1764 treatise which declared "liberty is the greatest blessing that men enjoy, and slavery the heaviest curse that human nature is capable of," despite the fact that he held six slaves here: Fibbo, St. Jago, Prince, Toney, Adam and Primus.
-            <a href="http://www.stephenhopkins.org/">Tours available here.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>Joseph Brown House c. 1828</h4>
-          <p>50 South Main Street. African American Noah Brown, father of memoirist William J. Brown (see below), lived here at the back of this house. The Browns ran their many businesses, including slaving, out of this building.</p>
-        </div>
-        <div class="text-block">
-          <h4>Slave Marker</h4>
-          <p>Water Street, just south of Planet Street. Acknowledges Providence as a slave port in the 18th century, and as a port for Cape Verdeans arriving in the city in the early 20th century. (Note vandal's attempt to eradicate the reference to slavery.)</p>
-        </div>
-        <div class="text-block">
-          <h4>William J. Brown Birth Site (1814)</h4>
-          <p>Planet Street, midway between Benefit and South Main Streets on the south side, now a parking lot. For a stunning account of 19th century Black life on College Hill, read his Memoirs of William J. Brown, 1883.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/black_owned_icon.png" class="inline-icon">
-            Tourist Home</h4>
-          <p>12 Benefit Street. Listed in the 1947 Negro Motorist Green Book, it was operated by Walter W. Joyce, a Maryland native who had moved to Providence with his Virginia-born wife Emma by 1928. Joyce worked variously as a laborer, butler, and houseman, and in the 1942 city directory as a “helper.”</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/black_owned_icon.png" class="inline-icon">
-            Marie Wells Beauty Shop</h4>
-          <p>18 Benefit Street. Listed in The Negro Motorist Green Book, the shop operated here as of 1947. The city directory that year gives the business name as the Marinello Beauty Shop, with Mary Ingham Young its proprietor. Young, a native of Bermuda, married Providence native Raymond Profitt Young in 1927. The shop remained in business until at least 1964. </p>
-        </div>
-        <div class="text-block">
-          <h4>43 Benefit Street</h4>
-          <p>In 1915, Annie Moore, who worked as a hotel maid, rented part of this house along with her mother, Lucy Henry, and two male boarders. </p>
-        </div>
-        <div class="text-block">
-          <h4>Cooper/Cummings Residence</h4>
-          <p>52 Benefit Street. In 1905, the Samuel Staples Jr. House was being rented to six African Americans: Martha A. Cummings, a department store stock clerk; her adult sons George, also a store stock clerk and Frank, an ash team driver; a ten-year-old granddaughter, and two boarders. By 1917 African American carpenter James A. Cooper, born in North Carolina in 1858, rented the house; by 1920, the Cooper family owned the house. The Coopers remained at 24 Benefit through the late 1950s.</p>
-        </div>
-        <div class="text-block">
-          <h4>Nancy Elizabeth Prophet</h4>
-          <p>62 Benefit Street (Amos Allen House, 1773). The first Black female graduate of Rhode Island School of Design in 1918, Prophet (1890-1960) lived here in 1920 with her father and husband, Francis Ford, and later at 306 Benefit Street rear. Three of her sculptures are held in the RISD Museum. 
-            <a href="http://mappingartsproject.org/providence/artists/nancy-elizabeth-prophet/">Learn more.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" class="inline-icon">
-            Chace Sisters Headstone</h4>
-          <p>St. John’s Cathedral Cemetery, 70 Benefit Street. “In Memory of three respectable Black Persons Phillis, Rose & Fanny Chace who served faithfully in the family of Samuel Chace Esq. The wise, the gay, the humble and the exalted, the beautiful and the deformed must all moulder in the same native clay.” (Phillis died some time between 1790-1793. Rose was buried Dec. 20, 1801). 
-          <a href="http://rihistoriccemeteries.org/newgravedetails.aspx?ID=211320">See stone.</a></p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/grave_icon.png" class="inline-icon">
-            Judge Staples House</h4>
-          <p>75 Benefit Street, ca. 1850. A small cemetery behind the house contains the graves of members of four Black families who lived in the house from the 1830s to the 1850s.</p>
-        </div>
-        <div class="text-block">
-          <h4>Charles Haskell (1760-1833)</h4>
-          <p>Seth Wheaton House, 1786. 81 Benefit Street. "Man of colour, a soldier of the Revolution," Haskell was a servant for Wheaton. Haskell is interred in North Burial Ground (see below) with his wife Lucy, his brother and parents. His funeral was covered in the Providence Journal.
-            <a href="http://www.victorianweb.org/art/architecture/ri/benefit/15.html">See house.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>Old State House</h4>
-          <p>150 Benefit Street. Here, at the time of the American Revolution in the late 1700s, there were intense debates between factions represented by Brown brothers John and Moses over the issue of slavery and a proposal by some slaveholders to free their slaves in order to let them serve as soldiers. Moses, being a Quaker, was as opposed to slavery as John was in favor of it. Housed within are archaeological artifacts from the Black neighborhood Snowtown held by the Rhode Island Historical  Preservation & Preservation Commission. Call to view: (401) 222-4140</p>
-        </div>
-        <div class="text-block">
-          <h4>Old Arsenal, Providence Marine Corps of Artillery Building</h4>
-          <p>176 Benefit Street. 1840. The site of an illegal meeting of the Ku Klux Klan on May 17, 1924. Usually associated with the South, the Klan was active in Rhode Island during the 1920s. It organized a meeting at the Arsenal that attracted some 200 men. The group had no permit to meet on state property and had obtained entrance to the Arsenal by claiming it would hold a religious meeting. Later, Rhode Island's Gov. William S. Flynn denounced the Klan and forbade the group to use state property for meetings.</p>
-        </div>
-        <div class="text-block">
-          <h4>Providence High School Site</h4>
-          <p>215 Benefit Street. Maritcha Lyons (1848-1929). Following her successful petitioning of the state legislature to integrate its public schools, Lyons was the first African American in Rhode Island to enter an all-white school, graduating in 1869 from Providence High School in 1869. Read Maritcha by Tonya Bolden.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/church_icon.png" class="inline-icon">
-            Church of the Savior</h4>
-          <p>400 Benefit Street. When St. Stephen’s Episcopal Church (see below) vacated their premises on Benefit and Transit (now Barker Playhouse) for a new building on Brown’s campus, St. Augustine’s Episcopal Mission moved there in 1840 and assumed the name of the prior residents: Church of the Savior. “A colored congregation succeeded to the name and building, remaining there some fifteen years.”</p>
-        </div>
-        <div class="text-block">
-          <h4>John Hope Settlement House</h4>
-          <p>15 Pratt Street. See plaque. First known as the Crispus Attucks Association, the agency was reorganized in 1937 and named the John Hope Community Association in honor of John Hope, an alumnus of Brown University and the first African American President of Morehouse College in Atlanta, GA, and a founder of the NAACP. Housed here from 1939-45. In 1946 it moved to its present location, 7 Thomas P. Whitten Way (named for its longest serving director). 
-            <a href="https://johnhopedotorg.wordpress.com/about/">Learn more.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/church_icon.png" class="inline-icon">
-            Congdon Street Baptist Church</h4>
-          <p>17 Congdon Street. Built 1874, it is the oldest standing Black church in Providence.
-            <a href="https://www.stagesoffreedom.org/blog">Hours, services, and history.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>John Brown House</h4>
-          <p>52 Power Street. Brown, merchant, patriot, politician, and slave trader, was an instigator and participant in the Gaspee Affair. In spite of Rhode Island laws prohibiting slave trading, he continued the practice, even while being sued by his abolitionist brother Moses. Prior to the building of this house, Brown owned Africans Jack, Amboy, Pomp, and at least two others, who ran away to Boston and were caught. Brown and his family were some of the wealthiest and most influential people in the colonies and are the namesake of Brown University. See plaque on wall to the left of the stairs (note vandal's attempt to eradicate the reference to slavery). 
-            <a href="https://www.rihs.org/museums/john-brown-house/">Tours.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>William P. Freeman House</h4>
-          <p>58 Meeting Street. Realtor and confidant of Sissieretta Jones, and executor of her estate. Freeman also resided at 83 Benefit (tucked behind # 87), and operated his real estate and insurace business at 76 Dorrance Street (Case-Meade Building, Room 414) until he retired in 1964. It was Freeman who gave an impoverished Sissieretta $1 to take a cab to the hospital just before she died. 
-            <a href="https://www.rifoundation.org/TransformingRhodeIsland/100YearsofCommunity/Dedicationtocommunity.aspx">Learn more.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/cape_verde_icon.png" class="inline-icon">
-            African Meeting House Site</h4>
-          <p>98 Meeting Street. March 19, 1819, Meeting called to discuss Negro Church. Funds raised under leadership of Rev. Henry Jackson (white) and Nathaniel Paul (colored), founder of the Providence’s United African Society, “to be open and free to all Christian professors and not confined to any one profession of the Christian religion” (Read Moses Brown, Short History of African Meeting House) The first paid pastor was Mr. Asa Gouldsbury. 1819, April – Ground is broken behind the home of Black businessman George McCarty on Meeting Street for the African Union Meeting House on land donated by Quaker Moses Brown.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/cape_verde_icon.png" class="inline-icon">
-            <img src="media/railroad_icon.png" class="inline-icon">
-            Bethel AME Church Marker</h4>
-          <p>193 Meeting Street. Founded in 1840 as Meeting Street Church and demolished by Brown University after a 10 year battle, spearheaded by Thurgod Marshall, in the 1950s. It served as an Underground Railroad site. The church is now located at 30 Rochambeau Avenue.</p>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container">
-      <h1>Smithfield</h1>
-      <div class="parent">
-        <div class="text-block">
-          <h4>Arnold Buffum Homestead</h4>
-          <p>383 Great Road. Buffum was one of Rhode Island’s leading abolitionists.</p>
-        </div>
-        <div class="text-block">
-          <h4>Westacres</h4>
-          <p>c. 1730. Lousiquisset Pike. This house was used as a tavern in the 18th century and later belonged to freed slaves Isaac and Prince Aldrich.</p>
-        </div>
-        <div class="text-block">
-          <h4>Smith-Curliss House</h4>
-          <p>Built in the early 19th century and moved to this site in the latter part of the century, it was owned for about 100 years by the Curliss family, one of the few Black families in North Smithfield.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/black_owned_icon.png" alt="black-owned business icon" class="inline-icon">
-            Banneker Industries
-          </h4>
-          <p>582 Great Road. Named for the great Black mathematician, Benjamin Banneker, Cheryl Snead founded Banneker Industries, a world-class provider of supply chain solutions, specializing in third and fourth-party logistics services, in 1991.
-            <a href="http://www.banneker.com/about-us/company-overview/">Learn more.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>Sarah Muckamug</h4>
-          <p>956 Old Smithfield Road, Isaac Wilkinson home
-            c. 1829. Muckamug, a Nipmuc Indian, indentured to Col. Joseph Whipple, of Providence, for 12 years, had four children with Aaron Whipple, a Black slave of Whipple. Muckamug left Whipple after he refused to "maintain" their children together. She was allowed to build a wigwam on this property by the Wilkinsons. She later had another child with Fortune Burnee, a free Black man living in the community. Sarah’s life shows the complex role of marriage between First Peoples and individuals of African descent.</p>
-        </div>
-        <div class="text-block">
-          <h4>Elizabeth Buffum Chace</h4>
-          <p>Elizabeth was born on Dec. 9, 1806 in Smithfield to Arnold Buffum and Rebecca Gould Buffum, and became an ardent abolitionist, publishing at 85 her memoirs, Anti-Slavery Reminiscences. 
-            <a href="https://archive.org/details/antislaveryremin00chac">Read them here.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>Mountaindale</h4>
-          <p>This machine shop, near the junction of Reaper’s Brook and Stillwater River, was built in 1826-27 by Waterman Smith and Thomas Harris. The factory made spindles, rolls, and shuttles. It changed hands several times and in the 1850s was converted to the manufacture of "negro cloth."</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h1>Woonsocket</h1>
-      <div class="parent">
-        <div class="text-block">
-          <h4>Anti-Slavery Convention Site</h4>
-          <p>99 South Main Street. Held in the fall of 1841, Frederick Douglass was one of its major speakers.
-            <a href="http://rhodetour.org/items/show/228">Learn more.</a>
-          </p>
-        </div>
-        <div class="text-block">
-          <h4>Woonsocket City Hall</h4>
-          <p>169 Main Street. Built by abolitionist Edward Harris, this site hosted Abraham Lincoln's unprecedented second visit to Rhode Island in March 1860. He spoke to a packed audience, defending his position that the nation could not endure half slave and half free. (See plaque located in entryway.)</p>
-        </div>
-        <div class="text-block">
-          <h4>Chan’s</h4>
-          <p>267 Main Street. Since 1905, this Chinese restaurant has featured some of the finest Black jazz and blues artists in the world.</p>
-        </div>
-        <div class="text-block">
-          <h4>
-            <img src="media/church_icon.png" alt="small icon of a church" class="inline-icon">
-             St. James Church
-            </h4>
-          <p>340 South Main Street. Founded in November 1953 at 517 River Street by Rev. J.W. Hinson to serve a growing Black population, the parish moved to his location in 1974.</p>
-        </div>
-        <div class="text-block">
-          <h4>Rev. John Boyden House c. 1845</h4>
-          <p>121 Blackstone Street. Boyden, 1809- 1869, first pastor of Woonsocket’s Universalist Church, was prominent anti-slavery advocate.</p>
-        </div>
-        <div class="text-block">
-          <h4>Cato Hill Historic District</h4>
-          <p>2 & 1/2 blocks of Church and Cato Streets, Clarkin Lane and Boyden Street, located just above downtown. African American Lydia Brayton Willard (descended of Prince Aldrich, one of two slaves owned by Samuel Aldrich of Smithfield, RI, who purchased this land upon his freedom) inherited this property from Prince and named it for her late husband, Cato Willard. Before his death in 1834, Cato laid out Cato Street, and in 1846 Lydia platted new lots along Cato and Church streets. The neighborhood was added to the National Historic Register in 1976.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="text-block">
-      <h4></h4>
-      <p></p>
-    </div>
   </body>
 </html>
