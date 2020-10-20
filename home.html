@@ -4,7 +4,6 @@
   <head>
     <title>Responsive Redesign</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
@@ -15,7 +14,9 @@
 
     <div class="section">
       <h2 class="heading">On The Rhode To Freedom</h2>
-      <a href="https://www.stagesoffreedom.org/on-the-rhode-to-freedom">View the current website.</a>
+      <p class="btext">On The Road To Freedom is a roadside guide to African American sites in Rhode Island. The resource was created by the Stages of Freedom, a local non-profit organization that promotes black cultural events, and is hosted on their website. The page lists a large number of historic properties, churches, businesses, and burial sites associated with the state’s deeply rooted slave legacy. Organized by municipality, the sheer amount of information included in this guide makes comprehension difficult, but this is exacerbated by the page’s interface design.</p>
+      <p class="btext">I redesigned the On The Road To Freedom web page to be responsive across various device sizes while improving the site’s usability and visual design.</p>
+      <button class="button" onclick=" window.open('https://www.stagesoffreedom.org/on-the-rhode-to-freedom','_blank')">View the current website ➜</button>
     </div>
 
       <div class="section">
@@ -33,19 +34,34 @@
         <h3 class="btext"> Low-Fidelity Wireframes </h3>
         <p class="btext">Created with Balsamiq, the following wireframes display a simple low-fidelity representation of the page’s redesign. The annotations describe where and how the wireframes solve the issues associated with the current site.</p>
         <img src="portfolio/balsamiq.svg" alt="Improved low-fidelity design of web, tablet, and phone interfaces." class="image" id="large">
+        <h3 class="btext"> High-Fidelity Prototypes </h3>
+        <p class="btext">Created with Figma, the following high-fidelity mock-ups realistically prototype the low-fidelity wireframes. The annotations describe how developers can implement responsiveness across three common device widths and reproduce the elements in HTML and CSS.</p>
+        <img src="portfolio/figma.svg" alt="Improved high-fidelity design of web, tablet, and phone interfaces." class="image" id="large">
         <h3 class="btext"> Visual Design Style Guide </h3>
         <p class="btext">This guide keeps visual elements consistent across the site while making handoff to developers easier.</p>
         <img src="portfolio/style-guide.svg" alt="Style guide of typeface, colors, icons, and navbars." class="image" id="guide">
-        <h3 class="btext"> High-Fidelity Prototypes </h3>
-        <p class="btext">Created with Figma, the following high-fidelity mock-ups apply the visual design style guide to realistically prototype the low-fidelity wireframes. The annotations describe how developers can implement responsiveness and reproduce the elements in HTML and CSS.</p>
-        <img src="portfolio/figma.svg" alt="Improved high-fidelity design of web, tablet, and phone interfaces." class="image" id="large">
-
 
       </div>
 
       <div class="section">
         <h2 class="heading"> Responsive Redesign </h2>
-        <a href="redesign.html">Redesigned Website</a>
+        <p class="btext">Finally I built the responsively redesigned website in HTML and CSS by referring to my prototypes and visual design style guide.</p>
+        <button class="button" onclick=" window.open('redesign.html','_blank')">View the redesigned website ➜</button>
+        <div class="grid-1by2">
+          <div class="block1">
+            <h2 class="btext" id="center">Before</h2>
+            <img src="media/old-phone-1.png" class="small" id="iphone" alt="old phone screen display">
+            <img src="media/old-ipad-1.png" class="small" alt="old phone screen display">
+            <img src="media/old-ipad-2.png" class="small" alt="old ipad screen display">
+
+          </div>
+          <div class="block2">
+            <h2 class="btext" id="center">After</h2>
+            <img src="media/new-phone-1.png" class="small" id="iphone" alt="new phone screen display">
+            <img src="media/new-ipad-1.png" class="small" alt="new phone screen display">
+            <img src="media/new-ipad-2.png" class="small" alt="new ipad screen display">
+          </div>
+        </div>
       </div>
   </body>
 </html>
